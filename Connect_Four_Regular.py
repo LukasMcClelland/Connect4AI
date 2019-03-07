@@ -93,7 +93,7 @@ def sameState(board1, board2):
     return board1 == board2
 
 # TODO Fix the bug that grants red a win when it shouldn't.
-#  Comparing strings will not work if players are using "1" and "-1" as tokens (ex: -1 1 1 1) win result in red win
+#  Comparing strings will not work if players are using "1" and "-1" as tokens (ex: -1 1 1 1) will result in red win
 
 def gameOver(boardToCheck, token):
     winningSeq = str(token) * 4
